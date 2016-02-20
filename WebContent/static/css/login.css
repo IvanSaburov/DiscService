@@ -1,0 +1,79 @@
+body {
+  background: #f5ffff;
+}
+#loginForm {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	width: 400px;
+        height: 150px;
+	padding: 24px 24px 0;
+	
+	background: #FEFEFE;
+        border: 1px solid #CAD8DE;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+	font: 14px/18px Arial, Tahoma, sans-serif;
+	color: #444;
+        z-index: 1;
+}
+#loginForm .field {
+	margin: 0 0 18px;
+}
+#loginForm .labels {
+	display: block;
+	margin: 0 0 11px;
+}
+#loginForm .field .input {
+  border-radius: 4px;
+}
+#loginForm .field input {
+  font: 12px Arial, Tahoma, sans-serif;
+	color: #444;
+	width: 262px;
+	padding: 9px 13px;
+  border: 1px solid #D2D9DC;
+	border-radius: 3px;
+	box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 0 5px #F7F9FA;
+	outline: none;
+}
+#loginForm .field input:focus {
+	border-color: #B7D4EA;
+	box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6, 0 0 0 5px #F2F8FC;
+}
+.forget {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	font-size: 11px;
+	color: red;
+  	z-index: 2;
+}
+#forgot:hover {
+	color: #444;
+  text-decoration: underline;
+}
+#loginForm .submit {
+        margin-top: 5px;
+       float: right;
+	padding: 4px 20px;
+	height: 25px;
+         border-top: 1px solid #98CCE7;
+           border-bottom: 1px solid #7DB0CC;
+         border-left: 1px solid #8CBFD9;
+        border-right: 1px solid #8CBFD9;
+        border-radius: 15px;
+	color: #FFF;
+        font: bold 13px Arial, Tahoma, sans-serif;
+
+	background-color: #5a567f;
+	cursor: pointer;
+	text-shadow: 0 -1px rgba(0,0,0,0.15);
+	outline: none;
+}
+
+#loginForm .submit button::-moz-focus-inner{border:0}
